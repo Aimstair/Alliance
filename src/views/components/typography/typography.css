@@ -1,0 +1,15 @@
+.typography-style   {
+    color:green
+}
+
+.small  {
+    font-size: 12px;
+}
+
+.medium  {
+    font-size: 50px;
+}
+
+.large  {
+    font-size: 100px;
+}
