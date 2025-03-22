@@ -29,6 +29,10 @@ export const Mainpage = () => {
         text: "Home",
         icon: <HomeIcon />
       }, {
+        to: "/clicker",
+        text: "Clicker",
+        icon: <ListIcon />
+      }, {
         to: "/employee",
         text: "Employee List",
         icon: <ListIcon />
@@ -55,7 +59,7 @@ export const Mainpage = () => {
       };
 
     return ( 
-        <div>
+        <>
         <CssBaseline />
         <AppBar position="fixed" open={open}>
           <Toolbar>
@@ -109,6 +113,6 @@ export const Mainpage = () => {
   
           <Outlet />
         </Main>
-        <div/>
+        </>
     );
-  };
+  }

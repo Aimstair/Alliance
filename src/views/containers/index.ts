@@ -4,3 +4,4 @@ export * from "./Homepage";
 export * from "./EmployeeDetails";
 export * from "./MainPage";
 export * from "./LoginPage";
+export {ClickCounter} from "./ClickCounter/ClickCounter";
