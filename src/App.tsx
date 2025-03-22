@@ -23,16 +23,14 @@ import AppRoutes from "./Routes";
 
 const drawerWidth = 240;
 
-const App = () => {}
-
-export const MainPage = () => {
+const App = () => {
   const pages = [{
     to: "/login",
     text: "Login",
     icon: <LoginIcon />
   }, {
     to: "/",
-    text: "Home",
+    text: "ClickCounter",
     icon: <HomeIcon />
   },{
     to: "/employee",
@@ -60,12 +58,11 @@ export const MainPage = () => {
     setOpen(false);
   };
 
-  return  { 
+  return  (
     <Box sx={{ display: "flex" }}>
       <AppRoutes/>
     </Box>
-  };
-  
+  );
 };
 
 export default App;

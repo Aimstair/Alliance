@@ -5,7 +5,7 @@ import "./includes/styles.css";
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 import TodoApp from "./views/containers/TodoApp/TodoApp";
-import { Homepage, Mainpage } from "./views/containers";
+import { ClickCounter, Homepage, Mainpage } from "./views/containers";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement,
@@ -14,8 +14,8 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      {/* <App /> */}
-        <TodoApp/>
+      <App/>
+        {/* <TodoApp/> */}
     </BrowserRouter>
   </React.StrictMode>,
 );
